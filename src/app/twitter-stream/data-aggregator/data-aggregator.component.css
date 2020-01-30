@@ -1,0 +1,29 @@
+.inputTextBox {
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    margin-left: 8px;
+  }
+
+  .label {
+    display: inline-block;
+    width: 140px;
+    text-align: right;
+  }
+
+  .mat-cell:nth-child(1),
+.mat-header-cell:nth-child(1) {
+    flex: 0 0 30%;
+}
+
+.mat-cell:nth-child(5),
+.mat-header-cell:nth-child(5) {
+    flex: 0 0 10%;
+}
+.tableDiv {
+  overflow-y: scroll; 
+  height:400px; 
+  margin-top: 12px;
+}
